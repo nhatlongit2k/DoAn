@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white_three"
+    android:id="@+id/cl_question_item"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_is_fall_question"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_question_number"
+            style="@style/TextStyle45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingVertical="3.5dp"
+            android:textSize="25dp"
+            android:text="Câu 1" />
+
+        <TextView
+            android:id="@+id/tv_question_item_content"
+            style="@style/TextStyle46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_name"
+            android:maxLines="1"
+            android:textSize="18dp"
+            android:text="Hãy trả lời..." />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/img_question_item_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:layout_marginRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_is_fall_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Câu điểm liệt"
+        android:visibility="gone"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/img_question_item_delete"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

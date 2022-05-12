@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.DoExamActivity">
+
+<!--    <include-->
+<!--        android:id="@+id/tb_do_exam"-->
+<!--        layout="@layout/custom_toolbar"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tb_do_exam"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:paddingVertical="4dp"
+        android:background="#64B55F">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="5dp" />
+
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="16:00"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/img_back"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_question_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="(Câu 1/25)"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tv_time"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_end_exam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="KẾT THÚC"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_question"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_tb_do_exam"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tb_do_exam" />
+
+    <LinearLayout
+        android:id="@+id/bottom_tb_do_exam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="horizontal"
+        android:background="#64B55F"
+        android:gravity="center"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/tv_back_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:visibility="invisible"
+            android:textSize="30dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white_three"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tv_question_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/25"
+            android:textSize="30dp"
+            android:textColor="@color/white_three"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_next_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white_three"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

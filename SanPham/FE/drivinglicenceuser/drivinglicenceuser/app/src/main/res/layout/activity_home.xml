@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.HomeActivity"
+    android:background="#E8E8E8">
+
+<!--    <include-->
+<!--        android:id="@+id/ic_home_tb"-->
+<!--        layout="@layout/custom_toolbar"/>-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/tb_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#64B55F"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/tv_tb_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:foregroundGravity="center"
+            android:paddingVertical="5dp"
+            android:text="Ôn thi giấy phép lái xe"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_tb_avatar"
+            android:layout_margin="2dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/white_three"
+            android:src="@mipmap/ic_motobyke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+<!--    <ViewFlipper-->
+<!--        android:id="@+id/vf_slide"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tb_home" />-->
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/vf_slide"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:iss_auto_cycle="true"
+        app:iss_delay="3000"
+        app:iss_period="1000"
+
+        app:iss_corner_radius="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tb_home" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:weightSum="3"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/vf_slide"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintLeft_toRightOf="parent">-->
+<!--        <LinearLayout-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_weight="1">-->
+<!--            <ImageView-->
+<!--                android:id="@+id/img_exam"-->
+<!--                android:src="@drawable/ic_baseline_how_to_reg_24"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="100dp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="15dp"-->
+<!--                android:text="Thi thử"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_weight="1">-->
+<!--            <ImageView-->
+<!--                android:id="@+id/img_learn"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:src="@drawable/ic_baseline_psychology_24"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="15dp"-->
+<!--                android:text="Ôn tập"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_weight="1">-->
+<!--            <ImageView-->
+<!--                android:id="@+id/img_how_to_lean"-->
+<!--                android:src="@drawable/ic_baseline_info_24"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="100dp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="15dp"-->
+<!--                android:text="Hướng dẫn"/>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vf_slide"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <LinearLayout
+            android:id="@+id/ll_do_exam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:background="@drawable/background_item"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/img_exam"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_baseline_how_to_reg_24" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thi thử"
+                    android:textSize="30dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gồm các đề thi giống thật"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_learn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:background="@drawable/background_item"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/img_learn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_baseline_psychology_24" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ôn tập"
+                    android:textSize="30dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Làm những câu hỏi theo chuyên đề giúp nâng cao khả năng làm đề"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_how_to_lean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:background="@drawable/background_item"
+            android:layout_margin="3dp">
+
+            <ImageView
+                android:id="@+id/img_how_to_lean"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_baseline_info_24" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hướng dẫn"
+                    android:textSize="30dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hướng dẫn cách ôn tập đạt hiểu quả cao khi sử dụng app"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

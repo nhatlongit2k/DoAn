@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220426073924",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "result_question",
+  "fields": [
+    {
+      "fieldName": "idAnswer",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "isCorrect",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "resulttestId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "questionId",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ResultQuestion",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

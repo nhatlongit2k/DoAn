@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20220426073920",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "type",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "des",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Type",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

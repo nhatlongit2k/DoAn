@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/userManagerFragment"
+        android:icon="@drawable/ic_person"
+        android:title="Người dùng" />
+    <item
+        android:id="@+id/categoryFragment"
+        android:icon="@drawable/ic_baseline_density_small_24"
+        android:title="Danh mục" />
+    <item
+        android:id="@+id/examFragment"
+        android:icon="@drawable/ic_bank"
+        android:title="Đề thi" />
+</menu>

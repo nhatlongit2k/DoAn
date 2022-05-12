@@ -1,0 +1,59 @@
+{
+  "applications": "*",
+  "changelogDate": "20220426073921",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "exam",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numberOfQuestion",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "maxScore",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "time",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "typeId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "createBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updateBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "updateTime",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Exam",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragment.InputOtpFragment">
+
+    <ImageView
+        android:id="@+id/img_otp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OTP Verification"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_otp" />
+    <TextView
+        android:id="@+id/tv_send_to_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:text="Mã OTP đã gửi đến"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <TextView
+        android:id="@+id/tv_enter_opt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:text="Hãy nhập mã OTP"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_send_to_number" />
+
+    <LinearLayout
+        android:id="@+id/ll_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_enter_opt"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edt_input1"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edt_input2"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edt_input3"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edt_input4"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edt_input5"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edt_input6"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_otp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Không nhận được mã?" />
+        <TextView
+            android:id="@+id/tv_resend"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:text="GỬI LẠI" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_fragmentinput_verify"
+        android:layout_margin="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Xác minh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_resend" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

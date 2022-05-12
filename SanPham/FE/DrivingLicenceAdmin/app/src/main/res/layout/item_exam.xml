@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/background_item"
+    android:id="@+id/cl_exam_item">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/img_item_exam_edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_exam_item_name"
+            style="@style/TextStyle45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingVertical="3.5dp"
+            android:maxLines="1"
+            android:text="Đề số 1"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tv_exam_item_infor"
+            style="@style/TextStyle46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_name"
+            android:text="25 câu/19 phút"
+            android:layout_marginBottom="5dp"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+<!--    <TextView-->
+<!--        android:id="@+id/item_do_exam"-->
+<!--        style="@style/TextStyle48"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:background="@drawable/background_aqua"-->
+<!--        android:foregroundGravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:paddingHorizontal="15dp"-->
+<!--        android:paddingVertical="5dp"-->
+<!--        android:text="Làm bài"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <ImageView
+        android:id="@+id/img_item_exam_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:layout_marginRight="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_item_exam_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:src="@drawable/ic_edit"
+        android:layout_marginRight="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/img_item_exam_delete"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.drivinglicenceadmin.ui.fragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgetFragment"
+            app:destination="@id/forgetFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.drivinglicenceadmin.ui.fragment.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgetFragment"
+        android:name="com.example.drivinglicenceadmin.ui.fragment.ForgetFragment"
+        android:label="fragment_forget"
+        tools:layout="@layout/fragment_forget" >
+        <action
+            android:id="@+id/action_forgetFragment_to_inputOtpFragment"
+            app:destination="@id/inputOtpFragment" />
+        <action
+            android:id="@+id/action_forgetFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inputOtpFragment"
+        android:name="com.example.drivinglicenceadmin.ui.fragment.InputOtpFragment"
+        android:label="fragment_input_otp"
+        tools:layout="@layout/fragment_input_otp" >
+        <action
+            android:id="@+id/action_inputOtpFragment_to_resetPasswordFragment"
+            app:destination="@id/resetPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="com.example.drivinglicenceadmin.ui.fragment.ResetPasswordFragment"
+        android:label="fragment_reset_password"
+        tools:layout="@layout/fragment_reset_password" >
+        <action
+            android:id="@+id/action_resetPasswordFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+</navigation>

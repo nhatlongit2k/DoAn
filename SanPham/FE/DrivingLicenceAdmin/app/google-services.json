@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1044298167254",
+    "project_id": "drivinglicenceadmin",
+    "storage_bucket": "drivinglicenceadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044298167254:android:a2f50e8f3ff09fb8af2a77",
+        "android_client_info": {
+          "package_name": "com.example.drivinglicenceadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044298167254-lvkqgmev3kj4cvmdiscdbaf45km6aj7f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drivinglicenceadmin",
+            "certificate_hash": "7163fc5e9e0b0e43ffa40daba09b9dd49e32f88e"
+          }
+        },
+        {
+          "client_id": "1044298167254-bqqj5bfcsptsl7a4i7fl3c830e61r8ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm0pN-exSNuWQ3c-POf-4EC7VREdKGnOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044298167254-bqqj5bfcsptsl7a4i7fl3c830e61r8ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

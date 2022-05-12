@@ -1,0 +1,55 @@
+{
+  "applications": "*",
+  "changelogDate": "20220426073918",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "user_app",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "userName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "password",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "avatar",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "permission",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UserApp",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

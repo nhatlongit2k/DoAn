@@ -1,0 +1,68 @@
+entity UserApp {
+	@Id id Long
+    userName String
+    password String
+    email String
+    phoneNumber String
+    name String
+    avatar String
+    permission Long
+    isActive Boolean
+}
+
+entity ResultTest {
+	@Id id Long
+    score Float
+    numberCorrectQuestion Long
+    isPass Boolean
+    userId Long
+    examId Long
+}
+
+entity Type{
+	@Id id Long
+    name String
+    des String
+}
+
+entity Exam {
+	@Id id Long
+    name String
+    numberOfQuestion Long
+    maxScore Float
+    time Long
+    typeId Long
+    createBy String
+    updateBy String
+    createTime ZonedDateTime
+    updateTime ZonedDateTime
+}
+
+entity Question{
+	@Id id Long
+    content String
+    image String
+    reason String
+    isFallQuestion Boolean
+    examId Long
+}
+
+entity Answer{
+	@Id id Long
+    content String
+    questionId Long
+    isCorrect Boolean
+}
+
+entity ResultQuestion{
+	idAnswer Long
+    isCorrect Boolean
+    resulttestId Long
+    questionId Long
+}
+
+
+dto * with mapstruct
+paginate * with pagination
+service * with serviceClass
+service * with serviceImpl

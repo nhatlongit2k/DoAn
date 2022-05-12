@@ -1,0 +1,43 @@
+{
+  "applications": "*",
+  "changelogDate": "20220426073919",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "result_test",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "score",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "numberCorrectQuestion",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "isPass",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "examId",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ResultTest",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

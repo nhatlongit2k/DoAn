@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20220426073923",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "answer",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "content",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "questionId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "isCorrect",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Answer",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

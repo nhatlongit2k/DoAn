@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:background="@drawable/background_item_exam"
+    android:id="@+id/cl_type_select_item">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_type_slect_item_name"
+            style="@style/TextStyle45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingVertical="3.5dp"
+            android:textSize="20dp"
+            android:text="Bằng lái A1" />
+
+        <TextView
+            android:id="@+id/tv_type_select_item_des"
+            style="@style/TextStyle46"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_name"
+            android:text="Mô tả về loại bằng" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

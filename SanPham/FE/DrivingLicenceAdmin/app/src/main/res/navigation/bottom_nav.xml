@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/userManagerFragment">
+
+    <fragment
+        android:id="@+id/userManagerFragment"
+        android:name="com.example.drivinglicenceadmin.ui.fragment.UserManagerFragment"
+        android:label="fragment_user_manager"
+        tools:layout="@layout/fragment_user_manager" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.drivinglicenceadmin.ui.fragment.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/examFragment"
+        android:name="com.example.drivinglicenceadmin.ui.fragment.ExamFragment"
+        android:label="fragment_exam"
+        tools:layout="@layout/fragment_exam" />
+</navigation>

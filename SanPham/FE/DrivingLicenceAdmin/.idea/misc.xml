@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/background_aqua.xml" value="0.229" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/background_button.xml" value="0.229" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/background_item_exam.xml" value="0.229" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/background_item_exam_selected.xml" value="0.229" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/background_question.xml" value="0.229" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/custom_edittext.xml" value="0.229" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/ic_arrow_back.xml" value="0.229" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/ic_bank.xml" value="0.196" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/ic_bank_exam.xml" value="0.196" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/ic_baseline_account_balance_24.xml" value="0.196" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/ic_baseline_density_small_24.xml" value="0.229" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.229" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.229" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/ic_person.xml" value="0.196" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/imagevector.xml" value="0.229" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/drawable/round_conner_answer.xml" value="0.229" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/font/lato.xml" value="0.39076923076923076" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/activity_do_exam.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/activity_login.xml" value="0.35280797101449274" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/activity_main.xml" value="0.3484375" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/activity_select_exam.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/custom_toolbar.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/fragment_category.xml" value="0.18802083333333333" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/fragment_exam.xml" value="0.18802083333333333" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/fragment_login.xml" value="0.35260416666666666" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/fragment_question.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/fragment_sign_up.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/fragment_user_manager.xml" value="0.18802083333333333" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/item_chose.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/item_exam.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/item_question.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/layout/list_exam.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/menu/bottom_nav.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidTraining/DrivingLicenceAdmin/app/src/main/res/menu/menu_bottom_nav.xml" value="0.36666666666666664" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable-v24/gradient_user_profile_background.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable-v24/ic_baseline_edit_24.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable/background_button.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable/background_item.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable/background_item_exam.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable/background_question.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable/custom_edittext.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable/ic_baseline_arrow_drop_down_circle.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable/ic_baseline_file_upload_24.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable/myspinnet_test.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable/round_conner_answer.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable/round_conner_answer_correct.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/drawable/spinner_custom.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/activity_how_to_use.xml" value="0.1802536231884058" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/activity_new_account.xml" value="0.33" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/activity_new_exam.xml" value="0.2" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/activity_new_question.xml" value="0.15" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/activity_select_exam.xml" value="0.17074275362318841" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/activity_user_profile.xml" value="0.1802536231884058" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/custom_toolbar.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/dialog_answer.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/dialog_change_password.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/dialog_create_exam.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/dialog_type.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/fragment_category.xml" value="0.17074275362318841" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/fragment_exam.xml" value="0.17074275362318841" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/fragment_forget.xml" value="0.18" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/fragment_input_otp.xml" value="0.22" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/fragment_login.xml" value="0.17842323651452283" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/fragment_question.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/fragment_reset_password.xml" value="0.18" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/fragment_sign_up.xml" value="0.1802536231884058" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/fragment_user_manager.xml" value="0.25" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/ic_baseline_edit_24.xml" value="0.1802536231884058" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/item_answer.xml" value="0.25" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/item_chose.xml" value="0.17074275362318841" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/item_exam.xml" value="0.17074275362318841" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/item_question.xml" value="0.16" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/item_type_category.xml" value="0.17074275362318841" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/item_user.xml" value="0.1802536231884058" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/layout/style_spinner.xml" value="0.1" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/menu/bottom_menu.xml" value="0.2" />
+        <entry key="..\:/DoAn6/FE/DrivingLicence/app/src/main/res/menu/popup_account_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
